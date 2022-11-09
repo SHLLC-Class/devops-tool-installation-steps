@@ -1,17 +1,28 @@
 # Tomcat
 
-This directory contains information about installations for Tomcat 
+Tomcat or Apache Tomcat is a light weight, open source web container used to deploy and run java-based web applications. It is developed by Apache Software Foundation (ASF).
+
+_This directory contains information about installations for Tomcat_ 
 
 ### Installation
 
+#### Prerequisite
+
+* AWS Account 
+* Create Redhat EC2 T2 micro Instance, 
+* Create Security Group and open Tomcat ports or Required ports.
+  * 8080 _etc
+* Attach Security Group to EC2 Instance.
+* Install java openJDK1.8+
+
 ***Note :***  Ubuntu use `apt` not `yum`, `yum` is for **redhat** or **centos**
 
-#### Steps
+#### Steps 
 
 1. Change Hostname [ Best Practice ] 
-```shell
-$ sudo hostname tomcat-web01
-``` 
+   1. ```shell
+      $ sudo hostname tomcat-web01
+      ``` 
 change `tomcat-web01` with the hostname of your choice.
 
 2. Install dependencies (Git, Wget, Java and Unzip)
@@ -100,7 +111,6 @@ use the commands below to install **Git**, **Wget** and **Unzip**
     ```shell
     $ ps -ef | grep tomcat
     ```
-   
 5. Access tomcat startup page
 
-`http://<public-IP>:8080`
+   1. `http://<public-IP>:8080`

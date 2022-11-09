@@ -6,7 +6,7 @@ This directory contains information about installations for Tomcat
 
 ***Note :***  Ubuntu use `apt` not `yum`, `yum` is for **redhat** or **centos**
 
-#### Steps 
+#### Steps
 
 1. Change Hostname [ Best Practice ] 
 ```shell
@@ -100,6 +100,7 @@ use the commands below to install **Git**, **Wget** and **Unzip**
     ```shell
     $ ps -ef | grep tomcat
     ```
+   
 5. Access tomcat startup page
 
 `http://<public-IP>:8080`

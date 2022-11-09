@@ -21,8 +21,8 @@ _This directory contains information about installations for Tomcat_
 
 1. Change Hostname [ Best Practice ] 
    1. ```shell
-   $ sudo hostname tomcat-web01
-   ``` 
+      $ sudo hostname tomcat-web01
+      ``` 
 change `tomcat-web01` with the hostname of your choice.
 
 2. Install dependencies (Git, Wget, Java and Unzip)
@@ -113,4 +113,4 @@ use the commands below to install **Git**, **Wget** and **Unzip**
     ```
 5. Access tomcat startup page
 
-   `http://<public-IP>:8080`
+   1. `http://<public-IP>:8080`

@@ -1,8 +1,19 @@
 # Tomcat
 
-This directory contains information about installations for Tomcat 
+Tomcat or Apache Tomcat is a light weight, open source web container used to deploy and run java-based web applications. It is developed by Apache Software Foundation (ASF).
+
+_This directory contains information about installations for Tomcat_ 
 
 ### Installation
+
+#### Prerequisite
+
+* AWS Account 
+* Create Redhat EC2 T2 micro Instance, 
+* Create Security Group and open Tomcat ports or Required ports.
+  * 8080 _etc
+* Attach Security Group to EC2 Instance.
+* Install java openJDK1.8+
 
 ***Note :***  Ubuntu use `apt` not `yum`, `yum` is for **redhat** or **centos**
 

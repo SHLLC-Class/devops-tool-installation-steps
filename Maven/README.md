@@ -9,12 +9,13 @@ This directory contains information about installations for Maven
 #### Steps
 
 1. Change Hostname [ Best Practice ] 
-```shell
-$ sudo hostname maven-build01
-``` 
-change `maven-build01` with the hostname of your choice.
 
-2. Install dependencies (Git, Java, Unzip)
+   1. ```shell
+       $ sudo hostname maven-build01
+      ``` 
+   change `maven-build01` with the hostname of your choice.
+
+3. Install dependencies (Git, Java, Unzip)
    1. use the command below to install **Git**, **Wget** and **Unzip**
    ```shell
     $ cd /opt
@@ -36,7 +37,7 @@ change `maven-build01` with the hostname of your choice.
     ```shell
     $ Java --version
     ```
-3. Download Maven zip & extract
+4. Download Maven zip & extract
    1. Maven can be downloaded using this command.
    ```shell
        $ sudo wget https://dlcdn.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.zip 
@@ -61,7 +62,7 @@ change `maven-build01` with the hostname of your choice.
    ```shell
    $ sudo mv apache-maven-3.8.6/ maven
    ```
-4. Set up user env var - bash profile
+5. Set up user env var - bash profile
 
    1. Open bash_profile
    ```shell 
@@ -89,9 +90,9 @@ change `maven-build01` with the hostname of your choice.
          $ echo $PATH
          ```
          should have ..`:/opt/maven/bin`
-5. Verify Maven is installed correctly by using this command 
-```shell
-mvn - version
-```
+6. Verify Maven is installed correctly by using this command 
+   1. ```shell
+       mvn - version
+      ```
 
 **Note :** Path is a list of dir locations where Linux & windows will look whenever you type a command. Meaning if a command binary is in a location not listed in path, the command will not execute. Think of it like a library of commands

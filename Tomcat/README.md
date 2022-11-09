@@ -13,6 +13,7 @@ This directory contains information about installations for Tomcat
 $ sudo hostname tomcat-web01
 ``` 
 change `tomcat-web01` with the hostname of your choice.
+
 2. Install dependencies (Git, Wget, Java and Unzip)
 use the commands below to install **Git**, **Wget** and **Unzip**
     1. 

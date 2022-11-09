@@ -6,7 +6,7 @@ This directory contains information about installations for Tomcat
 
 ***Note :***  Ubuntu use `apt` not `yum`, `yum` is for **redhat** or **centos**
 
-#### Steps
+#### Steps 
 
 1. Change Hostname [ Best Practice ] 
 ```shell

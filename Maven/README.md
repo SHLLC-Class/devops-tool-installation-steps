@@ -13,6 +13,7 @@ This directory contains information about installations for Maven
 $ sudo hostname maven-build01
 ``` 
 change `maven-build01` with the hostname of your choice.
+
 2. Install dependencies (Git, Java, Unzip)
    1. use the command below to install **Git**, **Wget** and **Unzip**
    ```shell

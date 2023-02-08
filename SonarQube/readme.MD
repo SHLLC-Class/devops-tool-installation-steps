@@ -67,7 +67,7 @@ The directory contains information about installations for SonarQube 7.8
 5. Download SonarQube 7.8 from site with tar /zip url
 
     ```shell
-    $ sudo wget sudo wget http://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.8.zip
+    $ sudo wget http://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.8.zip
     ```
     
 6. Unzip file downloaded

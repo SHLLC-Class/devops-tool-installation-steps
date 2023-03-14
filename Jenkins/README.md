@@ -11,11 +11,11 @@
 
 2. Install dependencies
 
-     i. cd to opt & install wget and unzip
+     i. cd to opt & install wget and Git
      
      ```shell
      $ cd /opt => go to opt dir
-     $ sudo yum install wget unzip -y
+     $ sudo yum install wget Git -y
      ```
     
 3. Install Java using the links below

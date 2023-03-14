@@ -23,8 +23,19 @@
       i. Install Java JDK 1.8 min required
       
       
+     ```shell
+    $ cd /opt => go to opt
+    $ sudo yum install wget unzip -y
+    ```
+    
+    ii. Make sure wget has been installed
     ```shell
-    $ sudo yum install jdk-8u 131-linux-x64.rpm -y
+    $ which wget
+    ```
+    
+    iii. Check if Unzip is installed correctly by using the command below
+    ```shell
+    $ which unzip
     ```
     
 4. import Jenkins key & install jenkins repo in yum repo

@@ -11,31 +11,25 @@
 
 2. Install dependencies
 
-     i. cd to opt & install wget and Git
+     i. cd to opt & install wget and git
      
      ```shell
      $ cd /opt => go to opt dir
-     $ sudo yum install wget Git -y
+     $ sudo yum install wget git -y
      ```
     
 3. Install Java using the links below
     
-      i. Install Java JDK 1.8 min required
-      
-      
-     ```shell
-    $ cd /opt => go to opt
-    $ sudo yum install wget unzip -y
-    ```
+    i. Install Java JDK 1.8 min required
     
-    ii. Make sure wget has been installed
     ```shell
-    $ which wget
+    $ sudo yum install java-11-openjdk-devel java-1.8.0-openjdk-devel -y
     ```
+
+    ii. Verify Java Version
     
-    iii. Check if Unzip is installed correctly by using the command below
     ```shell
-    $ which unzip
+    $ java -version 
     ```
     
 4. import Jenkins key & install jenkins repo in yum repo

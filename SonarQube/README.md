@@ -87,7 +87,7 @@ The directory contains information about installations for SonarQube 7.8
     
     ii. Rename file
     ```shell
-    $ mv sonarqube-7.8/ sonnarqube
+    $ mv sonarqube-7.8/ sonarqube
     ```
     
 8. Permissions. Change group & owner of directory to 775 permission.

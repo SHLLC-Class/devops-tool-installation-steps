@@ -22,7 +22,7 @@
     ii. Give sudo permission
     
     ```shell
-    $ sudo echo "sonar ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/sonar
+    $ sudo echo "nexus ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/nexus
     ```
     
     iii. Switch to become user
